@@ -1,0 +1,9 @@
+FROM adoptopenjdk/openjdk11:alpine-jre
+WORKDIR /opt
+COPY ./stock-strategy-service-0.0.1-SNAPSHOT.jar /opt/stock-strategy-service-0.0.1-SNAPSHOT.jar
+
+ENTRYPOINT ["java","-jar","stock-strategy-service-0.0.1-SNAPSHOT.jar"]
+
+
+
+

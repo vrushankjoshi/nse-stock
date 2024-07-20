@@ -1,0 +1,8 @@
+apiVersion: v2
+name: stock-strategy-service-svc
+description: A Helm chart for Kubernetes
+Type: application
+version: 0.1.0
+
+appVersion: "latest"
+

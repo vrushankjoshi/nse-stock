@@ -1,0 +1,9 @@
+FROM adoptopenjdk/openjdk11:alpine-jre
+WORKDIR /opt
+COPY ./RetrieveStockDetails-0.0.1-SNAPSHOT.jar /opt/RetrieveStockDetails-0.0.1-SNAPSHOT.jar
+
+ENTRYPOINT ["java","-jar","RetrieveStockDetails-0.0.1-SNAPSHOT.jar"]
+
+
+
+
